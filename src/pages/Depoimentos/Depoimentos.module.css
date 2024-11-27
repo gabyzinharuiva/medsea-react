@@ -1,0 +1,208 @@
+body {
+  margin: 0 auto;
+  padding: 0; 
+  background-color: #F2AC57;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.depoimentosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh; 
+  justify-content: flex-start; 
+  background-color: #F2AC57; 
+}
+
+.logo {
+  margin-top: 5px; 
+  width: 100px;
+  cursor: pointer;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 1px solid white; 
+  border-radius: 50%; 
+}
+
+.title {
+  font-family: 'Arial', sans-serif;
+  color: #D90404;
+  margin-bottom: 20px;
+  text-align: center; 
+  margin-left: 20px;
+}
+
+.conteudoDepoimentos {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+  background-image: url('/src/components/fundo.png'); 
+  border-radius: 10px; 
+  padding: 20px; 
+  width: 60%; 
+  border: 3px solid white;
+  margin-left: 3%;
+}
+
+.depoimento {
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.tituloDepoimentos {
+  font-family: 'Arial', sans-serif;
+  color: #D90404;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.separador {
+  border: 1px solid #D90404;
+  margin: 10px 0;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+
+.containerBotao {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  max-width: 300px;
+  margin-top: 25px; 
+}
+
+.botaoVoltar, .botaoAdicionar {
+  width: 100%; 
+  margin: 0 15px; 
+  padding: 5px;
+  background-color: #D90404;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+.botaoVoltar:hover , .botaoAdicionar:hover {
+  background-color: #951f1f; 
+}
+
+.iconesFoooter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.iconesFoooter img {
+  width: 30px; 
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100vw;
+  position: relative;
+  margin-top: 3%;
+  bottom: 0;
+}
+
+.iconesFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.icone:hover {
+  transform: scale(1.2); 
+}
+
+.divisor {
+  width: 1px;
+  height: 30px;
+  background-color: black;
+  margin: 0 10px;
+}
+.depoimento {
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.iconeComentar {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  scale: 1.2;
+}
+
+.depoimento:hover .iconeComentar {
+  opacity: 1;
+}
+.botaoSalvar {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.botaoSalvar:hover {
+  background-color: #45a049;
+}
+.icones {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.depoimento:hover .icones {
+  opacity: 1;
+}
+
+.icone {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de hover nos ícones */
+.icone:hover {
+  transform: scale(1.3); /* Aumenta o tamanho do ícone ao passar o mouse */
+}

@@ -1,0 +1,74 @@
+.perfilContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #F2AC57;
+    min-height: 100vh;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #D90404;
+    margin-bottom: 20px;
+  }
+  
+  .formContainer {
+    background-color: white;
+    padding: 3%;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grupoInput {
+    margin-bottom: 15px;
+  }
+  
+  .grupoInput label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .grupoInput input[type="text"],
+  .grupoInput input[type="file"],
+  .grupoInput textarea,
+  .grupoInput select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .previewFoto {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  
+  .botao {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color: #D90404;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .botao:hover {
+    background-color: #b30303;
+  }
+  

@@ -1,0 +1,92 @@
+
+.grupoInput {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Para dar espaço entre o label e o input */
+}
+
+input[type="file"] {
+    padding: 5px; 
+}
+
+.botao, .botaoHistorico {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color: #D90404;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.botaoHistorico{
+    margin-top: 10px;
+}
+.botao:hover {
+    background-color: #b30303;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.botaoVoltarContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botaoVoltar {
+    padding: 10px 20px;
+    background-color: #D90404;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.botaoVoltar:hover {
+    background-color: #b30303;
+}
+.listaHistorico {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.historicoItem {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.historicoItem:last-child {
+    border-bottom: none; /* Remove a borda inferior do último item */
+}
+
+.historicoItem p {
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
+}
